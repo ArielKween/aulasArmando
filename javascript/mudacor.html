@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Exemplo getElementById</title>
+</head>
+<body>
+    <p id="para1">Algum texto de exemplo</p>
+    <button onclick="mudarCor('blue')";>Azul</button>
+    <button onclick="mudarCor('red')";>Vermelho</button>
+
+    <script>
+        function mudarCor(novaCor) {
+            var elemento = document.getElementById("para1");
+            elemento.style.color = novaCor;
+            elemento.style.fontSize = 30;
+            elemento.style.textAlign = "center";
+        }
+    </script>
+</body>
+</html>
